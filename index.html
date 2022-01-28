@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="normaliza.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cb14bf1aea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-header">
+          <img
+            class="logo"
+            src="./Logo_ccexpress.png"
+            alt="Logo de Chaajal hamacas"
+          />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links">
+          <ul class="links-list">
+            <li>
+              <a class="scroll-link" href="#">Home</a>
+            </li>
+            <li>
+              <a class="scroll-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li>
+              <a class="scroll-link" href="#tienda">Tienda</a>
+            </li>
+            <li>
+              <a class="scroll-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </li>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="home-container">
+        <div class="title">
+          <h1>Chajaal: Confort hecho a mano.</h1>
+          <a href="./Tienda/tienda.html" class="btn btn-5" id="home-a"
+            >Ir a la tienda!</a
+          >
+        </div>
+      </div>
+      <div id="nosotros" class="nosotros">
+        <h2 id="nosotros-mobile-title">Nosotros</h2>
+        <div class="nosotros-info">
+          <img
+            class="nosotros-img"
+            src="./nosotros-chaajal.jpg"
+            alt="Hamacas chaajal y bolsa de entrega"
+          />
+          <div class="nosotros-text">
+            <h2 id="nosotros-title">Nosotros</h2>
+            <p>
+              Somos una empresa 100% yucateca apasionados por las hamacas y por
+              compartir la tradición de estas. Trabajamos con artesanos locales
+              para brindarte productos de la mejor calidad que le darán a tu
+              hogar un toque de elegancia y comodidad.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="tienda" class="productos">
+        <h2 id="productos-title">Nuestros productos</h2>
+        <div class="info-productos">
+          <img
+            class="productos-img"
+            src="./hmp5.jpg"
+            alt="Productos de Chaajal"
+          />
+          <div class="texto-productos">
+            <h2 id="productos-mobile-title">Nuestros productos</h2>
+            <p>
+              En Chaajal podras encontrar desde hamacas en urdido tradicional
+              con hilo de algodón o nylon, hamacas en telar, columpios, silletas
+              y otros productos 100% artesanales y de la mejor calidad.
+            </p>
+            <button class="btn-tienda">
+              <a href="./Tienda/tienda.html">Ir a la tienda!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="contacto" id="contacto">
+        <h2>Contactanos!</h2>
+        <div class="contact-info">
+          <form class="contact-form">
+            <div class="form-section" id="name-section">
+              <div id="name-div">
+                <label class="form-label" for="name">Name *</label><br />
+                <input
+                  class="form-input"
+                  type="text"
+                  id="name"
+                  name="user_name"
+                /><br />
+              </div>
+              <div id="last-div">
+                <label for="last-name">Last Name</label><br />
+                <input type="text" id="last-name" name="user_lastname" /><br />
+              </div>
+            </div>
+            <div class="form-section">
+              <label class="form-label" for="email">Email *</label><br />
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                name="user_email"
+              /><br />
+            </div>
+            <div class="form-section">
+              <label class="form-label" for="subject">Subject *</label><br />
+              <input
+                class="form-input"
+                type="text"
+                id="subject"
+                name="user_subject"
+              /><br />
+            </div>
+            <div class="form-section">
+              <label class="form-label" for="message">Message *</label><br />
+              <textarea
+                class="form-input"
+                id="message"
+                name="user_message"
+              ></textarea
+              ><br />
+            </div>
+            <button class="submit-btn" type="submit">Enviar</button>
+          </form>
+          <div class="contact-texto">
+            Si tienes alguna duda acerca de alguno de nuestros productos o
+            quieres convertirte en distribuidor de Chaajal puedes llamarnos o
+            mandar un correo y nos pondremos en contacto contigo lo mas rapido
+            posible.
+            <ul class="contact-list">
+              <li>
+                <div class="contact-title">
+                  <i class="fas fa-phone"></i>
+                  <p>Llamanos</p>
+                </div>
+                <p class="contact-response">9993-31-79-20</p>
+              </li>
+              <li>
+                <div class="contact-title">
+                  <i class="fas fa-envelope"></i>
+                  <p>Envianos un correo</p>
+                </div>
+                <p class="contact-response">chajalhamacas@chaajal.mx</p>
+              </li>
+              <li>
+                <div class="contact-title">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>Encuentranos en:</p>
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9372662320175!2d-89.62117498542062!3d21.03519599293526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567684ea01cfa1%3A0xbf219fa421a494d7!2sC.%2067%20177%2C%20Montes%20de%20Am%C3%A9%2C%2097115%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses-419!2smx!4v1643326495801!5m2!1ses-419!2smx"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  class="map"
+                ></iframe>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-up">
+        <div class="social-icons-footer">
+          <a href="https://github.com/christianjc98" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/christian-janssen-269b82225/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/christian-janssen-269b82225/"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <div class="copyright">
+          Copyright &copy <span class="date">2021</span> Chaajal Hamacas.
+        </div>
+      </div>
+    </footer>
+    <a
+      href="https://api.whatsapp.com/send?phone=529993317920&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+      class="float"
+      target="_blank"
+    >
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <script src="app.js"></script>
+  </body>
+</html>

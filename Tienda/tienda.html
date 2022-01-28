@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./tiendaStyles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cb14bf1aea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="store-title">
+        <div class="circle"></div>
+        <nav class="store-navigation">
+          <ul class="store-nav">
+            <li>
+              <a href="../index.html"><i class="fas fa-home"></i></a>
+            </li>
+            <li>
+              <a class="shopping-cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="store-header">BIENVENIDO</h3>
+        <p class="store-subtitle">¿Preparado para comprar comodidad?</p>
+      </div>
+      <main class="productos">
+        <div class="category-card">
+          <a class="category-card-title">Hamaca Sencilla</a>
+          <img class="category-img" src="./hm1.jpg" alt="">
+            <div class="description-price">
+              <div class="description">Silleta de madera e hilo de algodón. Disponible en varios colores</div>
+              <div class="price">1500</div>
+            </div>
+            <button class="shop-btn">Lo quiero!</button>
+          </div>
+        </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-up">
+          <div class="social-icons-footer">
+            <a href="https://github.com/christianjc98" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/christian-janssen-269b82225/"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/christian-janssen-269b82225/"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+          <div class="copyright">
+            Copyright &copy <span class="date">2021</span> Chaajal Hamacas.
+          </div>
+        </div>
+      </footer>
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <div class="purchase-btn">
+              <button class="pago-btn">Ir al pago</button>
+            </div>
+        </div>
+      
+      </div>
+    </div>
+    <script src="tienda.js"></script>
+  </body>
+</html>
